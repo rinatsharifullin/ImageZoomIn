@@ -1,0 +1,76 @@
+#style1{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+#tumb1,
+#tumb2,
+#tumb3,
+#tumb4,
+#tumb5,
+#tumb6,
+#tumb7,
+#tumb8{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+#tumb1 img,
+#tumb2 img,
+#tumb3 img,
+#tumb4 img,
+#tumb5 img,
+#tumb6 img,
+#tumb7 img,
+#tumb8 img{
+    min-width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+}
+#image{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    /* border: 3px red solid; */
+    box-sizing: border-box;
+    display: flex;
+    margin: 10px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+#image img{
+    width: 200%;
+    height: auto;
+    /* object-fit: cover; */
+    cursor: pointer;
+    /* background-image:  url(../images/1.png), url('../images/rinat.png'), url('../images/bray-d.jpg'); */
+}
+
+.img-zoom-container {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+}
+#myimage{
+    width: 500px;
+    height: auto;
+}
+.img-zoom-lens {
+position: absolute;
+border: 1px solid #d4d4d4;
+/*set the size of the lens:*/
+width: 40px;
+height: 40px;
+}
+
+.img-zoom-result {
+border: 1px solid #d4d4d4;
+/*set the size of the result div:*/
+width: 500px;
+height: 500px;
+}
